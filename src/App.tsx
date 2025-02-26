@@ -1,6 +1,6 @@
-import React from "react";
 import { SidebarProvider, SidebarTrigger } from "./components/ui/sidebar";
 import { AppSidebar } from "./components/app-sidebar";
+import { ProgressCircle } from "./components/ProgressCircle";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
         <AppSidebar />
           <SidebarTrigger />
       </SidebarProvider>
+      <ProgressCircle />
     </>
   );
 };
